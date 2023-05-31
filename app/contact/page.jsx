@@ -1,4 +1,4 @@
-import { useForm } from 'react-hook-form';
+/* import { useForm } from 'react-hook-form';
 import Header from '../components/Header';
 
 const Contact = () => {
@@ -43,7 +43,6 @@ const Contact = () => {
             <label htmlFor="email">Email:</label>
             <input type="email" id="email" {...register('email')} required />
           </div>
-          {/* Add CAPTCHA component here */}
           <div>
             <label htmlFor="message">Message:</label>
             <textarea id="message" {...register('message')} required></textarea>
@@ -60,3 +59,4 @@ const Contact = () => {
 };
 
 export default Contact;
+ */
