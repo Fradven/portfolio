@@ -1,5 +1,6 @@
 export default function TrainingCard({
     school,
+    location,
     subject,
     dateStart,
     dateEnd,
@@ -8,10 +9,10 @@ export default function TrainingCard({
     return (
       <>
         <li>
-          <h4>{school}</h4>
-          <p>
+          <h4 className="text-xl bg-beige">{school} <span className="text-sm italic">- {location}</span></h4>
+          <p className="py-2">
             {subject}{" "}
-            <span>
+            <span className="text-sm italic">
               {dateStart} - {dateEnd}
             </span>
           </p>

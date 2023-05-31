@@ -1,16 +1,12 @@
-import Header from "../components/Header";
 import "./projects.css";
 import CarouselCard from "../components/CarouselCard";
 
 export default function Projects() {
-  const image = "/next.svg";
-  const title = "Title";
-  const language = ["HTML", "Css"];
+  const language = ["React", "HTML", "CSS"];
   const description =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sapiente.";
   return (
     <>
-      <Header />
       <main className="max-w-screen-3xl m-auto pt-12">
         <section
           className="carousel sm:max-w-4xl m-auto"
@@ -19,7 +15,7 @@ export default function Projects() {
           <ol className="carousel__viewport">
             <li id="carousel__slide1" tabIndex="0" className="carousel__slide">
               <div className="carousel__snapper">
-                <a href="#carousel__slide1" className="carousel__prev">
+                <a href="#carousel__slide3" className="carousel__prev">
                   Go to last slide
                 </a>
                 <CarouselCard
